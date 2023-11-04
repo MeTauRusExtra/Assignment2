@@ -1,7 +1,7 @@
 # Assignment2
 
 def bracket_check(test_string):
-  ## ค่าเริ่มต้น
+  **ค่าเริ่มต้น**
   stack = Stack()
   is_error = False
   location = []
@@ -10,14 +10,14 @@ def bracket_check(test_string):
   closing_brackets = ")}]"  # ตัวอักษรที่เป็นวงเล็บที่ปิด
   bracket_pairs = {')': '(', '}': '{', ']': '['} #จับคู่วงเล็บ ถ้าไม่ใช่คู่กัน จะผิด
 
-  ## วนลูปตัวอักษรใน test_string
+  **วนลูปตัวอักษรใน test_string**
   for char in test_string:
-    ***ถ้าเป็นวงเล็บเปิดให้เข้าลูปนี้***
+    **ถ้าเป็นวงเล็บเปิดให้เข้าลูปนี้**
     if char in opening_brackets:
       stack.push((char,i)) ----- *push วงเล็บเปิดและตำแหน่งเข้าไปในstack*
-    ***ถ้าเป็นวงเล็บปิดให้เข้าลูปนี้***
+    **ถ้าเป็นวงเล็บปิดให้เข้าลูปนี้**
     elif char in closing_brackets:
-      **ถ้าstackว่าง แสดงว่าวงเล็บปิดมาก่อน ให้เข้าลูปนี้**
+      *ถ้าstackว่าง แสดงว่าวงเล็บปิดมาก่อน ให้เข้าลูปนี้*
       if stack.isEmpty():
         is_error = True  
         location.append(i) ----- *ใส่ตำแหน่งวงเล็บปิดที่ผิด*
