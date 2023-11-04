@@ -1,7 +1,6 @@
-# Assignment2
-
+# ฟังก์ชั่นตรวจสอบข้อผิดพลาดของวงเล็บ
+    
 def bracket_check(test_string):
-  **ค่าเริ่มต้น**
   1.stack = Stack()
   2.is_error = False
   3.location = []
