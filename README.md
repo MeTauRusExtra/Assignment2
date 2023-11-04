@@ -57,11 +57,14 @@
 
 ในการเรียกใช้ `bracket_check` คุณต้องส่งสตริงที่คุณต้องการตรวจสอบเป็นอาร์กิวเมนต์ ตัวอย่างการใช้งาน:
 
-```python
-test_string = "((a + b) * (c - d))"
-isError, locations = bracket_check(test_string)
-if isError:
-    print("ข้อผิดพลาดในวงเล็บที่ตำแหน่ง:", locations)
-else:
-    print("ไม่มีข้อผิดพลาดในวงเล็บ")
+    ```python
+    test_string = "((a + b) * (c - d))"
+    isError, locations = bracket_check(test_string)
+    if isError:
+        print("ข้อผิดพลาดในวงเล็บที่ตำแหน่ง:", locations)
+    else:
+        print("ไม่มีข้อผิดพลาดในวงเล็บ")
 
+
+
+### ผลการทดสอบ unittest
