@@ -5,7 +5,7 @@
 
 ## ฟังก์ชั่น bracket_check()
 
-'''python
+```python
 def bracket_check(test_string):
   #ค่าเริ่มต้น
   stack = Stack()
