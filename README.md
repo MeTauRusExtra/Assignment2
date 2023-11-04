@@ -6,14 +6,14 @@
 ## ฟังก์ชั่น bracket_check()
 
     def bracket_check(test_string):
-      **ค่าเริ่มต้น((
+      *ค่าเริ่มต้น*
       stack = Stack()
       is_error = False
       location = []
       i = 0 #ค่า i แทนตำแหน่ง index
-      opening_brackets = "({["  # ตัวอักษรที่เป็นวงเล็บที่เปิด
-      closing_brackets = ")}]"  # ตัวอักษรที่เป็นวงเล็บที่ปิด
-      bracket_pairs = {')': '(', '}': '{', ']': '['} #จับคู่วงเล็บ ถ้าไม่ใช่คู่กัน จะผิด
+      opening_brackets = "({["  ----- (ตัวอักษรที่เป็นวงเล็บที่เปิด)
+      closing_brackets = ")}]"  ----- (ตัวอักษรที่เป็นวงเล็บที่ปิด)
+      bracket_pairs = {')': '(', '}': '{', ']': '['} ----- (จับคู่วงเล็บ ถ้าไม่ใช่คู่กัน จะผิด)
 
       **วนลูปตัวอักษรใน test_string**
       for char in test_string:
