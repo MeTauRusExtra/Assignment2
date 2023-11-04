@@ -1,6 +1,6 @@
 # ฟังก์ชั่นตรวจสอบข้อผิดพลาดของวงเล็บ
     
-def bracket_check(test_string):
+'def bracket_check(test_string):
   1.stack = Stack()
   2.is_error = False
   3.location = []
@@ -40,7 +40,7 @@ def bracket_check(test_string):
       location.append(last_i) ------ *เพิ่มตำแหน่งข้อผิดพลาดของวงเล็บเปิด*
 
       
-  return is_error, location 
+  return is_error, location '
   
   ### ค่า location ของตำแหน่งวงเล็บที่ผิดพลาดที่ได้จากฟังชั่นก์ bracket_check()นี้บางกรณีอาจจะไม่ได้จัดเรียง
   ### เนื่องจากถ้ามีวงเล็บเปิดซ้อนกันมากๆ ในwhileLoopจะpopเอาตำแหน่งของตัวที่มาหลังก่อนดังนั้นเราสามารถจัดเรียงค่าlocationหลังจากเข้าลูปนี้
