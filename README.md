@@ -55,15 +55,15 @@
       return is_error, location
 
 
-##วิธีใช้
+## วิธีใช้
 
 ในการเรียกใช้ `bracket_check` คุณต้องส่งสตริงที่คุณต้องการตรวจสอบเป็นอาร์กิวเมนต์ ตัวอย่างการใช้งาน:
 
 ```python
 test_string = "((a + b) * (c - d))"
-is_error, location = bracket_check(test_string)
-if is_error:
-    print("ข้อผิดพลาดในวงเล็บที่ตำแหน่ง:", location)
+isError, locations = bracket_check(test_string)
+if isError:
+    print("ข้อผิดพลาดในวงเล็บที่ตำแหน่ง:", locations)
 else:
     print("ไม่มีข้อผิดพลาดในวงเล็บ")
 
