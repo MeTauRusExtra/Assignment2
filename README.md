@@ -71,4 +71,4 @@
 
 unittest ที่นำมาใช้ในการทดสอบมีทั้งหมด 5 ตัว และแสดงผลออกมาดั่งรูปภาพดังนี้
 
-![screen shot]([image](https://github.com/MeTauRusExtra/Assignment2/blob/main/Screenshot%202023-11-04%20160312.png)https://github.com/MeTauRusExtra/Assignment2/blob/main/Screenshot%202023-11-04%20160312.png.jpg)
+![screen shot](https://github.com/MeTauRusExtra/Assignment2/blob/main/Screenshot%202023-11-04%20160312.png.jpg)
