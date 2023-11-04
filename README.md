@@ -5,7 +5,6 @@
 
 ## ฟังก์ชั่น bracket_check()
 
-    
     def bracket_check(test_string):
       #ค่าเริ่มต้น
       stack = Stack()
