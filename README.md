@@ -57,7 +57,7 @@
 
 ในการเรียกใช้ `bracket_check` คุณต้องส่งสตริงที่คุณต้องการตรวจสอบเป็นอาร์กิวเมนต์ ตัวอย่างการใช้งาน:
 
-    ```python
+    
     test_string = "((a + b) * (c - d))"
     isError, locations = bracket_check(test_string)
     if isError:
@@ -68,3 +68,7 @@
 
 
 ### ผลการทดสอบ unittest
+
+unittest ที่นำมาใช้ในการทดสอบมีทั้งหมด 5 ตัว และแสดงผลออกมาดั่งรูปภาพดังนี้
+
+![alt text](image.jpg)
